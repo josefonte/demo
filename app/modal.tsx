@@ -32,7 +32,7 @@ export default function ModalScreen() {
                     <Text style={styles.authorsText}>José Miguel Barbosa</Text>
                     <Image
                         style={styles.image}
-                        source="https://picsum.photos/seed/696/3000/2000"
+                        source={require("@/assets/images/zemiguel.png")}
                         placeholder={blurhash}
                         contentFit="cover"
                         transition={1000}
