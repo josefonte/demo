@@ -19,20 +19,20 @@ export default function ModalScreen() {
             />
             <View style={styles.authorsContainer}>
                 <View style={styles.authorImage}>
-                    <Text style={styles.authorsText}>José Fonte</Text>
+                    <Text style={styles.authorsText}>José Miguel Barbosa</Text>
                     <Image
                         style={styles.image}
-                        source="https://avatars.githubusercontent.com/u/73178551?s=400&u=f731b4eb21666e95ace44de763b615ea33660abd&v=4"
+                        source={require("@/assets/images/zemiguel.png")}
                         placeholder={blurhash}
                         contentFit="cover"
                         transition={1000}
                     />
                 </View>
                 <View style={styles.authorImage}>
-                    <Text style={styles.authorsText}>José Miguel Barbosa</Text>
+                    <Text style={styles.authorsText}>José Fonte</Text>
                     <Image
                         style={styles.image}
-                        source={require("@/assets/images/zemiguel.png")}
+                        source="https://avatars.githubusercontent.com/u/73178551?s=400&u=f731b4eb21666e95ace44de763b615ea33660abd&v=4"
                         placeholder={blurhash}
                         contentFit="cover"
                         transition={1000}
